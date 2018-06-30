@@ -1,21 +1,20 @@
 <template>
     <div>
-        <h2>{{msg}}</h2>
-        <router-view></router-view>
+        duo2页面
     </div>
-    
 </template>
 
 <script>
 export default {
+    name:'hi2',
     data () {
         return {
-            msg:'this is index'
+            msg:'I am hi2 page'
         }
     }
 }
 </script>
 
-<style  >
+<style>
 
 </style>
